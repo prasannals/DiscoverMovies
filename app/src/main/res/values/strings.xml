@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Discover Movies</string>
+    <string name="not_connected">Internet Connection not available. Check your connection and try again.</string>
+    <string name="sort_rating">Rating</string>
+    <string name="sort_popularity">Popularity</string>
+    <string name="sort_title">Sort by</string>
+    <string name="positive_button">OK</string>
+    <string name="credits_title">Credits</string>
+    <string name="credits">This app is created by Prasanna Lakkur Subramanyam as a part of a project towards passing the Android Nanodegree at Udacity. Any commercial use won\'t be possible as I\'m not even gonna launch this anywhere. Just thought I\'d put this in here to sound professional.\n\nA big thank you to Rashmi LS for the wacom tablet. Now I don\'t have to steal random images on the internet.\n\nThis product uses the TMDb API but is not endorsed or certified by TMDb.( www.themoviedb.org ).\n</string>
+    <string name="popular_sort_request">http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&amp;api_key=</string>
+    <string name="rating_sort_request">http://api.themoviedb.org/3/discover/movie?sort_by=vote_average.desc&amp;vote_count.gte=100&amp;api_key=</string>
+    <string name="api_key"></string>
+</resources>
